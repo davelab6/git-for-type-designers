@@ -137,10 +137,20 @@ git log specificFile.txt
 # show the commit for specificFile.txt
 
 git diff
-# see what actually has changed
+# see what actually has changed inside each file
 
 ```
 
+#### git diff
+
+The `git diff` tool is very handy, because it shows you a before-and-after comparison of how the current files differ from those in the last commit.
+But by default it uses a cryptic line-by-line text format. 
+Fortunatly there are GUIs for doing this kind of comparison, and one freely available cross-platform  tool is Meld.
+It can be conveniently installed on Mac OS X via [HomeBrew](http://brew.sh) with the following command:
+
+    brew install meld
+
+To set it up with git, follow the instructions in <http://blog.deadlypenguin.com/blog/2011/05/03/using-meld-with-git-diff/>
 
 ## Using Git with a Remote Server
 
