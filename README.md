@@ -137,10 +137,15 @@ git log specificFile.txt
 # show the commit for specificFile.txt
 
 git diff
-# see what actually has changed
+# see what actually has changed in a long-time standard development format
 
+git icdiff
+# see what changed with colors *
 ```
 
+Install [icdiff](https://github.com/jeffkaufman/icdiff) with Homebrew:
+
+    brew install icdiff
 
 ## Using Git with a Remote Server
 
